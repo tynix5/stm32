@@ -5,3 +5,4 @@ apio.ini
 *.bin
 *.json
 *.out
+*.history
