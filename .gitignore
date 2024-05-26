@@ -1,0 +1,7 @@
+.sconsign.dblite
+apio.ini
+*.vcd
+*.asc
+*.bin
+*.json
+*.out
