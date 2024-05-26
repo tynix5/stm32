@@ -11,7 +11,6 @@
 //#define USART_CR1_TE		(1U << 3)
 //#define USART_CR2_CLKEN		(1U << 11)
 
-
 void uart2_init(uint32_t baud) {
 
 	/* Enable USART2 peripheral clock */

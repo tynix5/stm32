@@ -12,13 +12,13 @@ Drivers
 .cproject
 .mxproject
 .project
-*.Id
+*.ld
 *.launch
 Startup
 stm32f4xx_hal_msp.c
 stm32f4xx_it.c 
 syscalls.c 
 sysmem.c 
-system_stm32fxx.c 
+system_stm32f4xx.c 
 stm32f4xx_hal_conf.h 
 stm32f4xx_it.h
