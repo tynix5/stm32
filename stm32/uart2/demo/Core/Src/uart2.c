@@ -1,5 +1,4 @@
 
-#include "main.h"
 #include "uart2.h"
 #include "stm32f4xx.h"
 
