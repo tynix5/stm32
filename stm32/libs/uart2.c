@@ -6,10 +6,11 @@
 #define GPIOA_EN			(1U << 0)
 #define USART2_EN			(1U << 17)
 #define AFRL2				8
-//#define USART_SR_TXE	 	(1U << 7)
+//#define USART_SR_TXE		(1U << 7)
 //#define USART_CR1_UE		(1U << 13)
 //#define USART_CR1_TE		(1U << 3)
 //#define USART_CR2_CLKEN		(1U << 11)
+
 
 void uart2_init(uint32_t baud) {
 

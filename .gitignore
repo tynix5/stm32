@@ -1,3 +1,11 @@
+.vscode
+**/build
+*.exe
+*.elf
+*.hex
+*.map
+*.ioc
+*.yaml
 .sconsign.dblite
 apio.ini
 *.vcd
@@ -22,3 +30,8 @@ sysmem.c
 system_stm32f4xx.c 
 stm32f4xx_hal_conf.h 
 stm32f4xx_it.h
+Makefile
+startup_*.s
+*.cfg
+*.make
+*.config.yaml

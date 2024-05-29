@@ -15,8 +15,6 @@
   *
   ******************************************************************************
   */
-/* USER CODE END Header */
-/* Includes ------------------------------------------------------------------*/
 
 #include "main.h"
 #include <stdio.h>
@@ -40,7 +38,8 @@ int main(void)
 
 	while (1)
 	{
-		printf("Test UART2...\n\r");		// should print this in console shell/realterm
+      printf("Test UART2...\n\r");		// should print this in console shell/realterm
+      for (volatile int i = 0; i < 10000; i++) {}
 	}
 
 }
