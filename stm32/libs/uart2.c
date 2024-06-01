@@ -56,3 +56,14 @@ void uart2_writebyte(uint8_t byte) {
 	USART2->DR = byte;			// send data, clearing TXE flag
 
 }
+
+
+/* printf() uses __io_putchar() to print strings */
+/* Override __io_putchar (defined as weak) so that the characters
+ * are redirected to UART2 port
+ */
+int __io_putchar(int ch) {
+
+	uart2_writebyte((uint8_t)ch);			// use uart2 to send character
+	return ch;
+}
