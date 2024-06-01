@@ -3,8 +3,8 @@
 
 #include "stdint.h"
 
-void uart2_init(uint32_t baud);
-void uart2_setbaud(uint32_t baud);
-void uart2_writebyte(uint8_t byte);
+void UART2_Init(uint32_t baud);
+void UART2_SetBaud(uint32_t baud);
+void UART2_WriteChar(uint8_t byte);
 
 #endif
