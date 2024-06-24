@@ -206,7 +206,7 @@ void TIM2_Init()
   TIM2->CR1 = 0;
   TIM2->CR2 = 0;
 
-  TIM2->PSC = 10-1; // freq = 16 MHz
+  TIM2->PSC = 10-1; // freq = 1.6 MHz
 
   TIM2->DIER = TIM_DIER_UIE; // update interrupt enable
 
@@ -253,4 +253,3 @@ uint16_t convertSinToVoltage(double temp)
 
   return (((temp - oldMin) * newRange) / oldRange) + newMin;
 }
-
